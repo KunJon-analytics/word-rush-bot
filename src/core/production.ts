@@ -3,7 +3,7 @@ import createDebug from 'debug';
 import { Context, Telegraf } from 'telegraf';
 import { Update } from 'telegraf/typings/core/types/typegram';
 
-const WEB_APP_URL = 'https://word-coin.vercel.app';
+const WEB_APP_URL = 'https://word-coin.vercel.app/';
 
 const debug = createDebug('bot:dev');
 
