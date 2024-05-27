@@ -19,7 +19,7 @@ const help = () => async (ctx: Context) => {
    - Share it with friends and multiply your points!
 
 <b>View Your Points:</b>
-   - Check your Word Rush points anytime by navigating to <i>referalls<i/> using the navbar/sidebar.
+   - Check your Word Rush points anytime by navigating to <i>referalls</i> using the navbar/sidebar.
    - Lexicon prowess pays off!
 
 Ready to play? Let's turn words into wealth! 🌟🔠`,
