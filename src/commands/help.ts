@@ -11,15 +11,15 @@ const help = () => async (ctx: Context) => {
     `🚀 <b>Word Rush Bot Help:</b>
 
 <b>Launch Word Rush:</b>
-   - Use the <code> /start</code> command to launch the web app.
+   - Use the <code>/start</code> command to launch the web app.
    - Dive into the addictive word hunt game!
 
 <b>Get Your Referral Link:</b>
-   - Type <code> /referral</code> to receive your unique referral link.
+   - Type <code>/referral</code> to receive your unique referral link.
    - Share it with friends and multiply your points!
 
 <b>View Your Points:</b>
-   - Check your Word Rush points anytime by navigating to <i>referalls</i> using the navbar/sidebar.
+   - Check your Word Rush points anytime by launching Word Rush and navigating to <i>referalls</i> using the navbar/sidebar.
    - Lexicon prowess pays off!
 
 Ready to play? Let's turn words into wealth! 🌟🔠`,

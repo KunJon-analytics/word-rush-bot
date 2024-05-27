@@ -1,7 +1,7 @@
 import { Markup, Context } from 'telegraf';
 import createDebug from 'debug';
 
-import { WEB_APP_URL } from '../core';
+import { WEB_APP_URL } from '../lib';
 
 const debug = createDebug('bot:start_command');
 

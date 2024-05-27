@@ -3,8 +3,6 @@ import createDebug from 'debug';
 import { Context, Telegraf } from 'telegraf';
 import { Update } from 'telegraf/typings/core/types/typegram';
 
-const WEB_APP_URL = 'https://word-coin.vercel.app';
-
 const debug = createDebug('bot:dev');
 
 const PORT = (process.env.PORT && parseInt(process.env.PORT, 10)) || 3000;
@@ -37,4 +35,4 @@ const production = async (
   }
   debug(`starting webhook on port: ${PORT}`);
 };
-export { production, WEB_APP_URL };
+export { production };
