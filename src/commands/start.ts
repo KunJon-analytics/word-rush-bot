@@ -6,11 +6,11 @@ import { WEB_APP_URL } from '../core';
 const debug = createDebug('bot:start_command');
 
 const start = () => async (ctx: Context) => {
-  debug(
-    `Triggered "start" command by user \n${ctx.message?.from.username || ctx.message?.from.first_name}`,
-  );
+  const username = ctx.message?.from.username || ctx.message?.from.first_name;
+
+  debug(`Triggered "start" command by user \n${username}`);
   ctx.reply(
-    `Welcome to Word Rush! ${ctx.message?.from.username || ctx.message?.from.first_name} 🚀 \n
+    `Welcome to Word Rush! ${username} 🚀 \n
         Unleash your lexicon power and dive into the addictive word hunt game. 
         Earn points, invite friends, and convert them to valuable tokens. \n
         Let the word frenzy begin!`,
