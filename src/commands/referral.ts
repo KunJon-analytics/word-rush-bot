@@ -19,7 +19,7 @@ const referral = () => async (ctx: Context) => {
 🔗 <b>Your Referral Link:</b> ${referralLink}
 
 🌟 <b>Why Word Rush?</b>
-- 🎮 Play the addictive word hunt game.
+- 🎮 Play the addictive Word Rush.
 - 💌 Invite friends and multiply your points.
 - 💰 Convert points to valuable tokens on the TON blockchain.
 
@@ -30,7 +30,7 @@ Spread the word—let's make Word Rush go viral! 🌟✨`);
 🔗 <b>Your Referral Link:</b> Launch app using <i>/start</i> to get referral code
 
 🌟 <b>Why Word Rush?</b>
-- 🎮 Play the addictive word hunt game.
+- 🎮 Play the addictive Word Rush.
 - 💌 Invite friends and multiply your points.
 - 💰 Convert points to valuable tokens on the TON blockchain.
 

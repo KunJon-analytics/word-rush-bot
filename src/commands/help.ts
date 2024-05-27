@@ -12,7 +12,7 @@ const help = () => async (ctx: Context) => {
 
 <b>Launch Word Rush:</b>
    - Use the <code>/start</code> command to launch the web app.
-   - Dive into the addictive word hunt game!
+   - Dive into the addictive Word Rush!
 
 <b>Get Your Referral Link:</b>
    - Type <code>/referral</code> to receive your unique referral link.

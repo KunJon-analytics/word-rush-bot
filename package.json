@@ -1,7 +1,7 @@
 {
   "name": "word-rush-bot",
   "version": "1.1.0",
-  "description": "Unleash your lexicon power and dive into the addictive word hunt game. Earn points, invite friends, and convert them to valuable tokens. Let the word frenzy begin!",
+  "description": "Unleash your lexicon power and dive into the addictive Word Rush. Earn points, invite friends, and convert them to valuable tokens. Let the word frenzy begin!",
   "main": "src/index.ts",
   "author": "Kunjon (https://github.com/KunJon-analytics)",
   "homepage": "https://github.com/KunJon-analytics/word-rush-tg-bot",
