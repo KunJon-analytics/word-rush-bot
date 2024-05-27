@@ -10,8 +10,8 @@ const start = () => async (ctx: Context) => {
 
   debug(`Triggered "start" command by user \n${username}`);
   ctx.replyWithMarkdownV2(
-    `🚀 **Welcome to Word Rush!** @${username} 🌟
-    Unleash your lexicon power and dive into the addictive word hunt game. Earn points, invite friends, and convert them to valuable tokens. Let the word frenzy begin!
+    `🚀 **Welcome to Word Rush.** @${username} 🌟
+    Unleash your lexicon power and dive into the addictive word hunt game. Earn points, invite friends, and convert them to valuable tokens. Let the word frenzy begin.
     **Launch Word Rush** 🎮`,
     Markup.inlineKeyboard([
       Markup.button.webApp('Launch Word Rush 🎮', WEB_APP_URL),
