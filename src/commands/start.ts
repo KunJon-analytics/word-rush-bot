@@ -9,10 +9,10 @@ const start = () => async (ctx: Context) => {
   const username = ctx.message?.from.username || ctx.message?.from.first_name;
 
   debug(`Triggered "start" command by user \n${username}`);
-  ctx.replyWithMarkdownV2(
-    `🚀 **Welcome to Word Rush.** @${username} 🌟
+  ctx.replyWithHTML(
+    `🚀 <b>Welcome to Word Rush.</b> @${username} 🌟
     Unleash your lexicon power and dive into the addictive word hunt game. Earn points, invite friends, and convert them to valuable tokens. Let the word frenzy begin.
-    **Launch Word Rush** 🎮`,
+    <b>Launch Word Rush</b> 🎮`,
     Markup.inlineKeyboard([
       Markup.button.webApp('Launch Word Rush 🎮', WEB_APP_URL),
     ]),
