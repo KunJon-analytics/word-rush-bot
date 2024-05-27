@@ -1,5 +1,5 @@
 const getReferralLink = (referralCode: number) => {
-  const referralLink = `https://t.me/WordHuntCoinBot?startattach=${referralCode}`;
+  const referralLink = `https://t.me/WordHuntCoinBot/hunt?startapp=${referralCode}`;
   return referralLink;
 };
 
